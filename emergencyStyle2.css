@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* انا حطيته */
+button{
+  border:none;
+}
+    /* set global font to Open Sans */
+    body {
+      font-family: 'Open Sans', 'sans-serif';
+      background-image: url(http://benague.ca/files/pw_pattern.png);
+    }
+
+    /* header */
+    h2 {
+      color: #55acee;
+      text-align: center;
+    }
+
+
+    /* button div */
+    #buttons {
+      padding-top: 50px;
+      text-align: center;
+    }
+
+    /* start da css for da buttons */
+    .ColorBtn {
+
+     width:120px;
+     height:120px;
+      border-radius: 5px;
+      padding: 15px 25px;
+      font-size: 15px;
+      text-decoration: none;
+      margin: 20px;
+      color: #fff;
+      position: relative;
+      display: inline-block;
+
+    }
+
+    .ColorBtn:active {
+      transform: translate(0px, 5px);
+      -webkit-transform: translate(0px, 5px);
+      box-shadow: 0px 1px 0px 0px;
+    }
+    .ColorBtn:focus{box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.30);}
+
+    /* copyright stuffs.. */
+    p {
+      text-align: center;
+      color: #55acee;
+      padding-top: 20px;
+    }
+
+    select:not([multiple]) {
+
+        width: 360px;
+        background-position: right 50%;
+        background-repeat: no-repeat;
+        padding: .5em;
+        padding-right: 1.5em
+    }
+
+    #arealist {
+        border-radius: 0
+    }
+    label{
+      font-size:18px;
+      color:#2631A4;
+    }
+    .lastbutton{
+    color:black;
+    text-align: center;
+    background: #CBF2B8;
+    padding: 10px 40px;
+    text-decoration: none;
+    transition: background .5s;
+    bord
+}
+.transitionbutton{
+color:black;
+text-align: center;
+background: #64A6D1;
+padding: 10px 40px;
+text-decoration: none;
+transition: background .5s;
+bord
+}
+
+
+/* table */
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #55acee;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #55acee;
+}
