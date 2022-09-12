@@ -1,5 +1,5 @@
 # emergency-system
-It is a website targeting hospitals to announce emergencies Instead of manual advertising, it provides continuous technical reports with full details, and it also contributes to reducing the time taken for the announcement, which leads to saving human lives.
+It is a website targeting hospitals to announce emergencies Instead of a manual way, it provides continuous technical reports with full details, and it also contributes to reducing the time taken for the announcement, which leads to saving human lives.
 
 https://user-images.githubusercontent.com/83551785/189725220-fc56226d-d41a-43f1-a36c-96675ac31865.mp4
 
